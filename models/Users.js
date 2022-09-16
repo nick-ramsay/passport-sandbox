@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const MessagesSchema = new Schema({
+const UserSchema = new Schema({
     message: { type: String },
     created_date: {type: Date}
 })
 
-const Messages = mongoose.model("Messages", MessagesSchema);
+const Users = mongoose.model("Users", UserSchema);
 
-module.exports = Messages;
+module.exports = Users;

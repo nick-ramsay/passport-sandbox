@@ -1,7 +1,7 @@
 const router = require("express").Router();
-const rmtRoutes = require("./rmtRoutes");
+const psRoutes = require("./psRoutes");
 
-// react-mongo-template routes
-router.use("/react-mongo-template", rmtRoutes);
+// passport-sandbox routes
+router.use("/passport-sandbox", psRoutes);
 
 module.exports = router;

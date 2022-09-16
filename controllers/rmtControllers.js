@@ -1,6 +1,7 @@
 const db = require("../models");
 
 module.exports = {
+    /*
     createMessage: function (req, res) {
         db.Messages
             .create(req.body)
@@ -20,4 +21,5 @@ module.exports = {
             .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err));
     }
+    */
 };
